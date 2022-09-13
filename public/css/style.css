@@ -1,0 +1,25 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+
+header .navbar .navbar-nav .nav-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:#8A2BE2;
+    transition: width 0.3s;
+}
+
+header .navbar .navbar-nav .nav-link:hover::after{
+  
+    width: 60%;
+    height: 2px;
+    background:#8A2BE2;
+    transition: width 0.3s;
+    border-bottom: 2px solid;
+}
+
+.btn-color{
+    background-color:#8A2BE2;
+}
